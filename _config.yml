@@ -1,0 +1,66 @@
+layout: sidebar
+# layout: stacked
+
+style: light
+# style: dark
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "talks"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: stars
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  # limit: 30
+  exclude:
+    forks: false
+    projects: 
+    # - repo-name
+
+social_media:
+  twitter: mwikya3
+  # behance: AbderraoufGattal
+  # medium: Abderraouf
+  linkedin: peter-mwikya-9a2a90112
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
+
+topics:
+  - name: Android
+    web_url: https://developer.android.com
+    image_url: https://images.vexels.com/media/users/3/139556/isolated/preview/1718a076e29822051df8bcf8b5ce1124-android-logo-by-vexels.png
+
+  - name: UX design
+    web_url: https://uxdesign.cc/
+    image_url: https://bs-uploads.toptal.io/blackfish-uploads/skill_page/content/logo_file/logo/5716/ux-36cad6dab8ac89c3246a81467a54a6b7.png
+
+  - name: ReactJs
+    web_url: https://reactjs.org
+    image_url: https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png
