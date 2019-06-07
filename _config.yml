@@ -25,14 +25,16 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: stars
+  sort_by: pushed
   # sort_by options:
   #   - pushed
   #   - stars
   # limit: 30
   exclude:
-    forks: false
-    projects: 
+    forks: true
+    projects:
+      sm_class_work
+      timeseries 
     # - repo-name
 
 social_media:
