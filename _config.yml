@@ -35,6 +35,7 @@ projects:
     projects:
       sm_class_work
       timeseries 
+       django-example-project 
     # - repo-name
 
 social_media:
